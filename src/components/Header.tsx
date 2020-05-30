@@ -30,6 +30,7 @@ export default Header;
 const Container = styled.header`
   display: flex;
   flex-direction: column;
+  z-index: 999;
 `;
 
 const Title = styled.h1`
@@ -38,7 +39,7 @@ const Title = styled.h1`
   font-weight: 900;
   color: #333;
   margin: 0;
-  text-shadow: rgba(0, 0, 0, 0.25) 3px 3px 15px;
+  text-shadow: rgba(51, 51, 51, 0.25) 3px 3px 15px;
 `;
 
 const KoreanTitle = styled.span`
@@ -69,5 +70,5 @@ const Description = styled.p`
   margin-top: 0.5rem;
   font-weight: bold;
   color: #888;
-  text-shadow: rgba(0, 0, 0, 0.25) 3px 3px 15px;
+  text-shadow: rgba(51, 51, 51, 0.25) 3px 3px 15px;
 `;
