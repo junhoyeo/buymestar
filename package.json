@@ -11,7 +11,9 @@
     "next": "9.3.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "styled-components": "^5.1.0"
+    "sass": "^1.26.7",
+    "styled-components": "^5.1.0",
+    "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
     "@types/node": "^13.13.4",

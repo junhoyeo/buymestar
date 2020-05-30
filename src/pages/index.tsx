@@ -1,15 +1,12 @@
 import React from 'react';
-import Head from 'next/head';
+import styled from 'styled-components';
 
-import Layout from '../components/Layout';
+import ServiceWrapper from '../components/ServiceWrapper';
 
 const Home: React.FC = () => {
   return (
-    <Layout>
-      <Head>
-        <title>커피</title>
-      </Head>
-    </Layout>
+    <ServiceWrapper>
+    </ServiceWrapper>
   )
 };
 
