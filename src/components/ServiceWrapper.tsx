@@ -98,7 +98,7 @@ const Description = styled.p`
 `;
 
 const Screen = styled.div`
-  background-color: white;
+  background-color: #fefefe;
   width: 100%;
   max-width: 500px;
   height: calc(100vh - 45px);
@@ -106,6 +106,10 @@ const Screen = styled.div`
     -31px -31px 62px #FAE0E0;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  padding: 40px 25px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 
   @media screen and (max-width: 1100px) {
     margin-right: 25px;
@@ -125,6 +129,8 @@ const Screen = styled.div`
 `;
 
 const ButtonRow = styled.div`
+  margin-top: 1.5rem;
+
   button:first-child {
     margin-right: 0.8rem;
   }

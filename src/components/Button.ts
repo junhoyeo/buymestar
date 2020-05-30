@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 const Button = styled.button`
   border: none;
-  margin-top: 1.5rem;
   padding: 15px 25px;
   border-radius: 50px;
   background: #F6DADB;
@@ -12,6 +11,7 @@ const Button = styled.button`
   font-weight: bold;
   color: #555;
   text-shadow: 2px 2px 16px rgba(255, 122, 143, 0.28);
+  transition: all 0.2s ease-in-out;
 
   &:focus {
     background: #F6DADB;
