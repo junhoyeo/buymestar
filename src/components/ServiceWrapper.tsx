@@ -14,7 +14,7 @@ const ServiceWrapper: React.FC = ({ children }) => {
             />
             <Title>Buy me star</Title>
             <Description>
-              직접 만드는 나만의 커피.<br />
+              직접 만드는 나만의 커피,<br />
               <strong>바이미스타</strong>는 혼란한 카페 메뉴판 앞에서<br />
               정신을 잃은 당신을 도와줍니다.
             </Description>
