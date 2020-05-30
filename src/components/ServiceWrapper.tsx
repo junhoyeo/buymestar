@@ -49,6 +49,10 @@ const ScreenWrapper = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: center;
+
+  @media screen and (max-width: 1100px) {
+    width: 100%;
+  }
 `;
 
 const LeftContentWrapper = styled.div`
@@ -57,6 +61,10 @@ const LeftContentWrapper = styled.div`
   align-items: center;
   justify-content: center;
   width: 45%;
+
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
 `;
 
 const LeftContentContainer = styled.div`
@@ -98,6 +106,22 @@ const Screen = styled.div`
     -31px -31px 62px #FAE0E0;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+
+  @media screen and (max-width: 1100px) {
+    margin-right: 25px;
+  }
+
+  @media screen and (max-width: 900px) {
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: 600px) {
+    margin-right: 0;
+    max-width: 100%;
+    height: 100vh;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
 `;
 
 const ButtonRow = styled.div`
