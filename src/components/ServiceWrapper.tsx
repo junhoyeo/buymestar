@@ -115,7 +115,6 @@ const Screen = styled.div`
     -31px -31px 62px #FAE0E0;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  padding: 40px 25px;
   display: flex;
   flex-direction: column;
   position: relative;

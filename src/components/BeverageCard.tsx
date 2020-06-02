@@ -118,4 +118,8 @@ const AbsoluteButton = styled(Button)`
     color: #f3f3f3;
     text-shadow: 5px 5px 16px rgba(255, 122, 143, 0.48);
   }
+
+  @media screen and (max-width: 450px) {
+    bottom: -8px;
+  }
 `;
