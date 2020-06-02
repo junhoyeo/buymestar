@@ -4,6 +4,11 @@ import styled from 'styled-components';
 import Button from './Button';
 
 const ServiceWrapper: React.FC = ({ children }) => {
+  const onClickLinkButton = (href: string) => {
+    const win = window.open(href, '_blank');
+    win?.focus();
+  };
+
   return (
     <Layout>
       <ScreenWrapper>
@@ -19,10 +24,14 @@ const ServiceWrapper: React.FC = ({ children }) => {
               정신을 잃은 당신을 도와줍니다.
             </Description>
             <ButtonRow>
-              <Button>
+              <Button
+                onClick={() => onClickLinkButton('https://github.com/junhoyeo/buymestar')}
+              >
                 <i className="fab fa-github" /> 프로젝트 깃허브
               </Button>
-              <Button>
+              <Button
+                onClick={() => onClickLinkButton('https://trendy-resume.now.sh/')}
+              >
                 <i className="fas fa-palette" /> 포트폴리오
               </Button>
             </ButtonRow>
